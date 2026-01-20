@@ -27,7 +27,6 @@ def click(index):
         check_winner()
         
         if not game_over:
-            # swap turns
             if turn == "X":
                 turn = "O"
             else:
